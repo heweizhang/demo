@@ -37,6 +37,7 @@
             <version>1.16.18</version>
         </dependency>
 
+        <!-- 转换返回转换json -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
