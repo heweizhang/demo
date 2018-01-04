@@ -2,9 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <style>
+        .container{
+            width: 200px;height: auto;
+            /*background-color: red;*/
+            border-bottom: 1px solid #ccc;
+        }
+        .item{
+            float: left;
+            width: 30px;
+        }
+        .container::before{
+            content: 'asdasdas ';
+            display: block;
+        }
+        .container::after{
+            content: ' ';
+            display: block;
+            clear: both;
+            /*display: block;*/
+            /*height: 30px;*/
+            /*width: 10px;*/
+        }
+    </style>
 </head>
 <body>
-$END$
+<div class="container">
+    <div class="item">1</div>
+    <div class="item">1</div>
+    <div class="item">1</div>
+</div>
 </body>
 </html>
